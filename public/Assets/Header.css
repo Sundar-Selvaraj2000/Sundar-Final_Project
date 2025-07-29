@@ -1,0 +1,42 @@
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .appName {
+    margin: 0px;
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.header .search {
+    width: 25%;
+    height: 35px;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-left: 17%;
+}
+
+.header .filterButton {
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    margin-left: 15px;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.header .login {
+    background-color: #EFF1F5;
+    height: 45px;
+    width: 120px;
+    border-radius: 7px;
+    margin-left: 490px;
+}
+
+.login:hover{
+    cursor: pointer;
+}

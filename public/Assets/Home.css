@@ -1,0 +1,80 @@
+.homePage {
+    height: 100vh;
+}
+
+
+
+.homePage-content {
+    display: flex;
+    height: calc(100% - 100px);
+}
+
+
+.explore {
+    width: 80%;
+    height: 100%;
+    background-color: #EFF1F5;
+}
+
+.explore .contentHeader {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.items-contents {
+    height: calc(100% - 60px);
+    display: flex;
+    padding: 10px;
+}
+
+.items-contents .items {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.items-contents .category-item {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.items .categories {
+    background-color: white;
+    width: calc(20% - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.items-contents .cart {
+    width: 25%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.cart .cart-header{
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.cart .cart-food{
+    padding: 10px;
+}
+
+.cart-food .cart-image{
+    width: 100px;
+}
+
+
+
+.food-item-menu :hover{
+    cursor: pointer;
+    border-bottom: 2px solid;
+}

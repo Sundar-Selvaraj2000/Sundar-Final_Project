@@ -1,0 +1,105 @@
+.login-page {
+    background-color: #D4D6EA;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .page {
+    background-color: white;
+    width: 95%;
+    height: 90%;
+    display: flex;
+}
+
+.page .left-page {
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.welcome {
+    padding-left: 15%;
+    margin-top: 20%;
+}
+
+.h1 {
+    margin-bottom: 0px;
+    font-size: medium;
+}
+
+.welcome-p {
+    margin-top: 0px;
+}
+
+.left-page .details {
+    margin-left: 15%;
+}
+
+.h2 {
+    margin-top: 8px;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+.details .input {
+    margin-top: 0px;
+    height: 35px;
+    width: 70%;
+    border-radius: 8px;
+}
+
+.checkbox {
+    display: flex;
+    margin-left: 15%;
+    /* font-size: medium; */
+    margin-top: -15px;
+    /* gap: 10px; */
+}
+
+.h5 {
+    margin-left: 5px;
+}
+
+.h6 {
+    margin-left: 205px;
+    color: #6755C1;
+}
+
+.h6:hover {
+    cursor: pointer;
+}
+
+.LogInButton {
+    margin-left: 15%;
+    width: 60%;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #5138ED;
+    color: white;
+}
+
+.LogInButton:hover {
+    cursor: pointer;
+}
+
+.signUp {
+    margin-left: 15%;
+}
+
+.span {
+    margin-left: 15px;
+    border-bottom: 2px solid;
+    color: #513DC2;
+}
+
+.span:hover {
+    cursor: pointer;
+}
+
+.page .right-page {
+    padding-left: 50%;
+    height: 100%;
+    background-image: url('../Assets/login.png');
+}

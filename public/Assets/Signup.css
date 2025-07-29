@@ -1,0 +1,81 @@
+.temp {
+    height: 100vh;
+    background-color: rgb(244, 216, 179);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-container {
+    width: 50%;
+    max-width: 500px;
+    height: fit-content;
+    background-color: rgb(239, 236, 236);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .form-container .form-input {
+    width: 80%;
+    padding: 5px;
+    background-color: rgb(239, 236, 236);
+    border: none;
+    border-bottom: 2px solid blue;
+  }
+  
+  .form-container .error {
+    border-bottom: 2px solid red;
+  
+  }
+  
+  .form-container .blue {
+    border-bottom: 2px solid blue;
+  }
+  
+  .form-container .error2 {
+    border-bottom: 2px solid black;
+  
+  }
+  
+  .form-container .form-input:focus {
+    outline: none;
+  }
+  
+  .form-container .create-acc-btn {
+    width: 55%;
+    padding: 15px;
+    border: none;
+    background-color: rgb(6, 219, 212);
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed !important;
+  }
+  
+  .form-container .create-acc-btn:hover {
+    background-color: rgb(5 161 156);
+  }
+  
+  .form-container .checkbox-div {
+    width: 80%;
+    cursor: pointer;
+  }
+  
+  .form-container .span {
+    cursor: pointer;
+  }
+  
+  .form-container .gender{
+    margin-left: -190px;
+    display: flex;
+    align-items: center;
+  }
+
+ 

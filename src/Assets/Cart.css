@@ -1,0 +1,83 @@
+.cart {
+    width: 25%;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cart .cart-header {
+    padding: 10px;
+    padding-left: 10px;
+}
+
+.cart-food {
+    /* padding: 15px; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+}
+
+.cart-food .food-details{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+    flex-direction: column;
+}
+
+/* .food-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+} */
+
+.count{
+    display: flex;
+    align-items: center;
+}
+
+.cart-food .cart-image {
+    width: 45px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.food{
+    overflow: scrollx;
+    height: 85%;
+    overflow: scroll;
+}
+
+
+.image{
+    width: 100px;
+    padding: 15px;
+}
+
+.cartButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartImage{
+    background-color: #EFF1F5;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.orderButton {
+    background-color: #EE5733;
+    width: 90%;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.cartButton :hover {
+    cursor: pointer;
+}
+.total-price {
+    margin: 0px;
+  }

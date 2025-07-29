@@ -1,0 +1,51 @@
+.navBar {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.navBar .sideButtons {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    padding: 15px;
+    border: 2px solid;
+    border-color: #DDB4A8;
+    border-radius: 8px;
+}
+
+.sideButtons:hover {
+    cursor: pointer;
+    background-color: #FDEEEA;
+}
+
+@media screen and (max-width: 768px) {
+    .navBar {
+        width: 200px;
+        transform: translateX(-100%);
+    }
+
+    .navBar.open {
+        transform: translateX(0);
+    }
+
+    .menu-toggle {
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 0.5rem 0.8rem;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        z-index: 101;
+        cursor: pointer;
+    }
+}
+

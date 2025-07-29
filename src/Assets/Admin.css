@@ -1,0 +1,167 @@
+/* Admin.css */
+
+.admin-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .admin-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #222;
+  }
+  
+  .add-food-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 50px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+  }
+  
+  .add-food-form h2 {
+    flex-basis: 100%;
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    color: #444;
+  }
+  
+  .add-food-form input {
+    flex: 1 1 180px;
+    padding: 12px 14px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .add-food-form input:focus {
+    outline: none;
+    border-color: #4f46e5; /* Indigo-600 */
+    box-shadow: 0 0 8px rgba(79, 70, 229, 0.3);
+  }
+  
+  .add-button {
+    flex-basis: 100%;
+    background-color: #4f46e5; /* Indigo-600 */
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .add-button:hover {
+    background-color: #4338ca; /* Indigo-700 */
+  }
+  
+  .food-list {
+    padding: 0 10px;
+  }
+  
+  .food-list h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .food-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .food-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+  }
+  
+  .food-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+  }
+  
+  .food-details input {
+    flex: 1 1 135px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1.8px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .food-details input:focus {
+    border-color: #4f46e5;
+    outline: none;
+    box-shadow: 0 0 8px rgba(79, 70, 229, 0.3);
+  }
+  
+  .remove-button {
+    background-color: #ef4444; /* Red-500 */
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex-shrink: 0;
+  }
+  
+  .remove-button:hover {
+    background-color: #b91c1c; /* Red-700 */
+  }
+  
+  /* Responsive */
+  @media (max-width: 640px) {
+    .add-food-form {
+      flex-direction: column;
+    }
+  
+    .add-food-form input,
+    .food-details input {
+      flex: 1 1 100%;
+    }
+  
+    .food-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .food-image {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+  
+    .remove-button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  
